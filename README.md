@@ -13,6 +13,8 @@ A bash script to automate the Adobe Experience Manager (AEM) environment setup v
 
 ### How to run?
 
+* Clone this repo.
+
 * Copy the ```aemSetup.sh``` file to directory where you want to setup AEM. This will be your $BASE directory.
 
 * Make sure you have permission to run the file by executing ```chmod +x /path/to/yourscript.sh```.
