@@ -83,7 +83,7 @@ cd $BASE
 echo "Downloading AEMFD Linux pkg"
 wget -v $AEMFDURL -O "aemfd-linux.zip" # To download and rename the zip file to snip off the build number/load details from file name.
 
-# Installing addon packages via CURL
+# Installing addon packages via CURL | Update <localhost> if necessary.
 cd $BASE
 echo "Installing AEMFD-Linux package on Publish instance..."
 curl -u admin:admin -F file=@"aemfd-linux.zip"  -F name="aemfd-linux" -F force=true -F install=true  http://localhost:4503/crx/packmgr/service.jsp & 
