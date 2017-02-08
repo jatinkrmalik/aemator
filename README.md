@@ -1,6 +1,8 @@
 # AEMATOR
 A bash script to automate the Adobe Experience Manager (AEM) environment setup via linux terminal, start to end with multi-tail logging.
 
+![AEMATOR](https://raw.githubusercontent.com/jatinkrmalik/aemator/master/aematorHeader.png)
+
 ### Prerequisites | Purpose | Installation command
 
 * **wget** | The non-interactive network downloader to download files. | ```sudo apt-get install wget```
