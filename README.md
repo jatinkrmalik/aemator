@@ -35,8 +35,10 @@ A bash script utility to automate the Adobe Experience Manager (AEM) environment
 
 ### Feel free to extend your script with the following CURL commands:
 *Note 1: The following CQ curl commands assumes a admin:admin username and password.*
+
 *Note 2: For Windows/Powershell users: use two "" when doing a -F cURL command.*
         Example: ```-F"":operation=delete""```
+        
 *Note 3: Quotes around name of package (or name of zip file, or jar) should be included.*
 
 * **Uninstall a bundle (use http://localhost:4505/system/console/bundles to access the Apache Felix web console)**
